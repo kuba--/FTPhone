@@ -1,0 +1,677 @@
+2004-02-25 23:45  kuba
+
+	* Src/Base.hxx: [no log message]
+
+2004-02-25 23:45  kuba
+
+	* Src/Base.cxx: TransferFile is virtual method now. Now it's easy
+	  to change transfer protocol for gsm files.
+
+2004-02-17 00:51  kuba
+
+	* AUTHORS: [no log message]
+
+2004-02-14 18:59  kuba
+
+	* Doc/devel-doc/html/: CVS_2Base_2Base_8cxx.html,
+	  CVS_2Base_2Base_8hxx-source.html, CVS_2Base_2Base_8hxx.html,
+	  CVS_2Base_2Debug_8hxx-source.html, CVS_2Base_2Debug_8hxx.html,
+	  CVS_2Base_2defaults_8h-source.html, CVS_2Base_2defaults_8h.html,
+	  Makefile.html, ginger_8c.html, gsm-1_80-pl10_2Makefile.html,
+	  sour_8c.html: devel documentation
+
+2004-02-10 02:03  kuba
+
+	* Src/: dsp.h, dsp.h_5.2-RELEASE.patch: [no log message]
+
+2004-02-09 22:08  kuba
+
+	* History/ARCHIVE_DIR, Log/DEBUG_DIR: [no log message]
+
+2004-02-09 22:04  kuba
+
+	* Doc/devel-doc/html/: CVS_2Base_2Base_8hxx-source.html,
+	  CVS_2Base_2Base_8hxx.html, CVS_2Base_2Debug_8hxx-source.html,
+	  CVS_2Base_2Debug_8hxx.html, CVS_2Base_2defaults_8h-source.html,
+	  CVS_2Base_2defaults_8h.html: devel documentation
+
+2004-02-09 22:04  kuba
+
+	* Doc/devel-doc/html/: CVS_2Base_2Base_8cxx.html, Makefile.html,
+	  ginger_8c.html, gsm-1_80-pl10_2Makefile.html, sour_8c.html: [no
+	  log message]
+
+2004-02-09 01:25  kuba
+
+	* AUTHORS, ChangeLog: [no log message]
+
+2004-02-09 01:11  kuba
+
+	* Src/: Base.cxx, Base.hxx, Debug.hxx, defaults.h, dsp.c,
+	  Interface.cxx, Interface.hxx, SysTools.cxx, SysTools.hxx: [no log
+	  message]
+
+2004-02-09 01:09  kuba
+
+	* Doc/devel-doc/: foot.html, head.html, style.css,
+	  html/CVS_2Base_2Base_8cxx.html, html/Makefile.html,
+	  html/ginger_8c.html, html/gsm-1_80-pl10_2Makefile.html,
+	  html/sour_8c.html:  user documentation
+
+2004-02-09 00:42  kuba
+
+	* Doc/user-doc/main.html:  user documentation
+
+2004-02-09 00:41  kuba
+
+	* Doc/user-doc/: index.html, FTPhone.png, valid-html401.png,
+	  vcss.png: [no log message]
+
+2004-02-05 01:16  kuba
+
+	* Doc/user-doc/index.html: [no log message]
+
+2004-02-04 01:17  kuba
+
+	* Doc/user-doc/index.html:  user documentation
+
+2004-02-04 01:12  kuba
+
+	* Doc/user-doc/: FTPhone.png, screenshot1.png, screenshot2.png,
+	  screenshot3.png, valid-html401.png, vcss.png: i've added some
+	  images for user documentation
+
+2004-01-31 19:44  kuba
+
+	* AUTHORS, HEADER, README, Src/Debug.hxx, Src/Doxyfile: [no log
+	  message]
+
+2004-01-31 16:32  kuba
+
+	* Src/: Main.cxx, Makefile, SysTools.cxx, SysTools.hxx: [no log
+	  message]
+
+2004-01-31 16:32  kuba
+
+	* Src/Interface.hxx: new properties
+
+2004-01-31 16:32  kuba
+
+	* Src/Interface.cxx: Implementation function SetAction which inform
+	  user about actual application's action.
+
+	  Two new properties getRecWin and getPlayWin which return pointer
+	  to WINDOWS structure.
+
+2004-01-31 16:30  kuba
+
+	* Src/Base.hxx: comments changes ;)
+
+2004-01-31 16:29  kuba
+
+	* Src/Base.cxx: using interface function -> SetAction
+
+2004-01-19 20:41  kuba
+
+	* Src/Base.cxx, ChangeLog: [no log message]
+
+2004-01-17 17:04  kuba
+
+	* ChangeLog: [no log message]
+
+2004-01-17 16:59  kuba
+
+	* Src/SysTools.cxx: [no log message]
+
+2004-01-17 16:55  kuba
+
+	* Src/Base.hxx: move some macros
+
+2004-01-17 16:55  kuba
+
+	* Src/Base.cxx: changed process of puting file on FTP server (after
+	  successful uploading rename file)
+
+2004-01-15 00:13  kuba
+
+	* ChangeLog: [no log message]
+
+2004-01-15 00:11  kuba
+
+	* Src/: Base.cxx, Base.hxx: correct *.gsm format files changed
+	  sleep-time in TransferFile method
+
+2004-01-12 01:41  kuba
+
+	* Src/Base.cxx: little change about gsm copression
+
+2004-01-06 02:41  kuba
+
+	* Src/dsp.c: [no log message]
+
+2004-01-06 02:37  kuba
+
+	* ChangeLog: [no log message]
+
+2004-01-06 02:31  kuba
+
+	* Src/: Interface.cxx, wave.c: [no log message]
+
+2004-01-06 02:30  kuba
+
+	* Src/wave.c: changes in 57, 78 line WAV_MONO -> WAV_STEREO
+
+2004-01-06 02:28  kuba
+
+	* Src/wave.c: some my changes for STEREO supporting
+
+2004-01-06 02:20  kuba
+
+	* Src/ftplib.h: for better compiling g++
+
+2004-01-06 02:18  kuba
+
+	* Src/dsp.c: [no log message]
+
+2004-01-06 02:16  kuba
+
+	* Src/Makefile: new path to gsm
+
+2004-01-06 02:15  kuba
+
+	* Src/Base.hxx: [no log message]
+
+2004-01-06 02:13  kuba
+
+	* Src/: Base.cxx, dsp.c: new gsm lib
+
+2004-01-06 02:09  kuba
+
+	* Src/Base.hxx: [no log message]
+
+2004-01-06 02:07  kuba
+
+	* Src/Base.cxx: changes for 2 channel recordnig (i suppose it's
+	  failed ;( )
+
+2004-01-06 01:17  kuba
+
+	* ChangeLog, Src/Base.cxx, Src/Makefile, Src/dsp.c, Src/dsp.h: [no
+	  log message]
+
+2004-01-06 01:16  kuba
+
+	* Src/gsm-1.0-pl10/COPYRIGHT, Src/gsm-1.0-pl10/ChangeLog,
+	  Src/gsm-1.0-pl10/INSTALL, Src/gsm-1.0-pl10/MACHINES,
+	  Src/gsm-1.0-pl10/MANIFEST, Src/gsm-1.0-pl10/Makefile,
+	  Src/gsm-1.0-pl10/README, Src/gsm-1.0-pl10/add-test/add_test.c,
+	  Src/gsm-1.0-pl10/add-test/add_test.dta,
+	  Doc/devel-doc/html/Base_8cxx-example.html,
+	  Doc/devel-doc/html/Base_8cxx.html,
+	  Doc/devel-doc/html/Base_8hxx-source.html,
+	  Doc/devel-doc/html/Base_8hxx.html,
+	  Doc/devel-doc/html/Debug_8hxx-source.html,
+	  Doc/devel-doc/html/Debug_8hxx.html,
+	  Doc/devel-doc/html/Interface_8cxx.html,
+	  Doc/devel-doc/html/Interface_8hxx-source.html,
+	  Doc/devel-doc/html/Interface_8hxx.html,
+	  Doc/devel-doc/html/Main_8cxx.html,
+	  Doc/devel-doc/html/SysTools_8cxx.html,
+	  Doc/devel-doc/html/SysTools_8hxx-source.html,
+	  Doc/devel-doc/html/SysTools_8hxx.html,
+	  Doc/devel-doc/html/add_8c.html,
+	  Doc/devel-doc/html/add__test_8c.html,
+	  Doc/devel-doc/html/annotated.html,
+	  Doc/devel-doc/html/bitter_8c.html,
+	  Doc/devel-doc/html/classTBase.html,
+	  Doc/devel-doc/html/classTInterface.html,
+	  Doc/devel-doc/html/cod2lin_8c.html,
+	  Doc/devel-doc/html/cod2txt_8c.html,
+	  Doc/devel-doc/html/code_8c.html,
+	  Doc/devel-doc/html/config_8h-source.html,
+	  Doc/devel-doc/html/config_8h.html,
+	  Doc/devel-doc/html/debug_8c.html,
+	  Doc/devel-doc/html/decode_8c.html,
+	  Doc/devel-doc/html/defaults_8h-source.html,
+	  Doc/devel-doc/html/defaults_8h.html,
+	  Doc/devel-doc/html/doxygen.css, Doc/devel-doc/html/doxygen.png,
+	  Doc/devel-doc/html/dsp_8c.html,
+	  Doc/devel-doc/html/dsp_8h-source.html,
+	  Doc/devel-doc/html/dsp_8h.html, Doc/devel-doc/html/examples.html,
+	  Doc/devel-doc/html/files.html, Doc/devel-doc/html/ftplib_8c.html,
+	  Doc/devel-doc/html/ftplib_8h-source.html,
+	  Doc/devel-doc/html/ftplib_8h.html,
+	  Doc/devel-doc/html/ftv2blank.png, Doc/devel-doc/html/ftv2doc.png,
+	  Doc/devel-doc/html/ftv2folderclosed.png,
+	  Doc/devel-doc/html/ftv2folderopen.png,
+	  Doc/devel-doc/html/ftv2lastnode.png,
+	  Doc/devel-doc/html/ftv2link.png,
+	  Doc/devel-doc/html/ftv2mlastnode.png,
+	  Doc/devel-doc/html/ftv2mnode.png,
+	  Doc/devel-doc/html/ftv2node.png,
+	  Doc/devel-doc/html/ftv2plastnode.png,
+	  Doc/devel-doc/html/ftv2pnode.png,
+	  Doc/devel-doc/html/ftv2vertline.png,
+	  Doc/devel-doc/html/functions.html,
+	  Doc/devel-doc/html/functions_func.html,
+	  Doc/devel-doc/html/functions_rela.html,
+	  Doc/devel-doc/html/functions_vars.html,
+	  Doc/devel-doc/html/globals.html,
+	  Doc/devel-doc/html/globals_defs.html,
+	  Doc/devel-doc/html/globals_func.html,
+	  Doc/devel-doc/html/globals_type.html,
+	  Doc/devel-doc/html/globals_vars.html,
+	  Doc/devel-doc/html/gsm2cod_8c.html,
+	  Doc/devel-doc/html/gsm_8h-source.html,
+	  Doc/devel-doc/html/gsm_8h.html,
+	  Doc/devel-doc/html/gsm__create_8c.html,
+	  Doc/devel-doc/html/gsm__decode_8c.html,
+	  Doc/devel-doc/html/gsm__destroy_8c.html,
+	  Doc/devel-doc/html/gsm__encode_8c.html,
+	  Doc/devel-doc/html/gsm__explode_8c.html,
+	  Doc/devel-doc/html/gsm__implode_8c.html,
+	  Doc/devel-doc/html/gsm__option_8c.html,
+	  Doc/devel-doc/html/gsm__print_8c.html,
+	  Doc/devel-doc/html/index.html,
+	  Doc/devel-doc/html/lin2cod_8c.html,
+	  Doc/devel-doc/html/lin2txt_8c.html,
+	  Doc/devel-doc/html/long__term_8c.html,
+	  Doc/devel-doc/html/lpc_8c.html, Doc/devel-doc/html/main.html,
+	  Doc/devel-doc/html/namespacemembers.html,
+	  Doc/devel-doc/html/namespacemembers_func.html,
+	  Doc/devel-doc/html/namespaces.html,
+	  Doc/devel-doc/html/namespacestd.html,
+	  Doc/devel-doc/html/namespacesys__tools.html,
+	  Doc/devel-doc/html/pages.html,
+	  Doc/devel-doc/html/preprocess_8c.html,
+	  Doc/devel-doc/html/private_8h-source.html,
+	  Doc/devel-doc/html/private_8h.html,
+	  Doc/devel-doc/html/proto_8h-source.html,
+	  Doc/devel-doc/html/proto_8h.html, Doc/devel-doc/html/rpe_8c.html,
+	  Doc/devel-doc/html/short__term_8c.html,
+	  Doc/devel-doc/html/structNetBuf.html,
+	  Doc/devel-doc/html/structfmtdesc.html,
+	  Doc/devel-doc/html/structgsm__state.html,
+	  Doc/devel-doc/html/structspex.html,
+	  Doc/devel-doc/html/structwavfile.html,
+	  Doc/devel-doc/html/style.css, Doc/devel-doc/html/sweet_8c.html,
+	  Doc/devel-doc/html/table_8c.html,
+	  Doc/devel-doc/html/taste_8c.html,
+	  Doc/devel-doc/html/taste_8h-source.html,
+	  Doc/devel-doc/html/taste_8h.html,
+	  Doc/devel-doc/html/toast_8c.html,
+	  Doc/devel-doc/html/toast_8h-source.html,
+	  Doc/devel-doc/html/toast_8h.html,
+	  Doc/devel-doc/html/toast__alaw_8c.html,
+	  Doc/devel-doc/html/toast__audio_8c.html,
+	  Doc/devel-doc/html/toast__lin_8c.html,
+	  Doc/devel-doc/html/toast__ulaw_8c.html,
+	  Doc/devel-doc/html/todo.html, Doc/devel-doc/html/tree.html,
+	  Doc/devel-doc/html/unproto_8h-source.html,
+	  Doc/devel-doc/html/unproto_8h.html,
+	  Doc/devel-doc/html/wave_8c.html,
+	  Doc/devel-doc/html/wave_8h-source.html,
+	  Doc/devel-doc/html/wave_8h.html, Src/gsm-1.0-pl10/inc/config.h,
+	  Src/gsm-1.0-pl10/inc/gsm.h, Src/gsm-1.0-pl10/inc/private.h,
+	  Src/gsm-1.0-pl10/inc/proto.h, Src/gsm-1.0-pl10/inc/toast.h,
+	  Src/gsm-1.0-pl10/inc/unproto.h, Src/gsm-1.0-pl10/man/bitter.1,
+	  Src/gsm-1.0-pl10/man/gsm.3, Src/gsm-1.0-pl10/man/gsm_explode.3,
+	  Src/gsm-1.0-pl10/man/gsm_option.3,
+	  Src/gsm-1.0-pl10/man/gsm_print.3, Src/gsm-1.0-pl10/man/toast.1,
+	  Src/gsm-1.0-pl10/src/add.c, Src/gsm-1.0-pl10/src/code.c,
+	  Src/gsm-1.0-pl10/src/debug.c, Src/gsm-1.0-pl10/src/decode.c,
+	  Src/gsm-1.0-pl10/src/gsm_create.c,
+	  Src/gsm-1.0-pl10/src/gsm_decode.c,
+	  Src/gsm-1.0-pl10/src/gsm_destroy.c,
+	  Src/gsm-1.0-pl10/src/gsm_encode.c,
+	  Src/gsm-1.0-pl10/src/gsm_explode.c,
+	  Src/gsm-1.0-pl10/src/gsm_implode.c,
+	  Src/gsm-1.0-pl10/src/gsm_option.c,
+	  Src/gsm-1.0-pl10/src/gsm_print.c,
+	  Src/gsm-1.0-pl10/src/long_term.c, Src/gsm-1.0-pl10/src/lpc.c,
+	  Src/gsm-1.0-pl10/src/preprocess.c, Src/gsm-1.0-pl10/src/rpe.c,
+	  Src/gsm-1.0-pl10/src/short_term.c, Src/gsm-1.0-pl10/src/table.c,
+	  Src/gsm-1.0-pl10/src/toast.c, Src/gsm-1.0-pl10/src/toast_alaw.c,
+	  Src/gsm-1.0-pl10/src/toast_audio.c,
+	  Src/gsm-1.0-pl10/src/toast_lin.c,
+	  Src/gsm-1.0-pl10/src/toast_ulaw.c, Src/gsm-1.0-pl10/tls/bitter.c,
+	  Src/gsm-1.0-pl10/tls/bitter.dta, Src/gsm-1.0-pl10/tls/ginger.c,
+	  Src/gsm-1.0-pl10/tls/sour.c, Src/gsm-1.0-pl10/tls/sour1.dta,
+	  Src/gsm-1.0-pl10/tls/sour2.dta, Src/gsm-1.0-pl10/tls/sweet.c,
+	  Src/gsm-1.0-pl10/tls/taste.c, Src/gsm-1.0-pl10/tls/taste.h,
+	  Src/gsm-1.0-pl10/tst/cod2lin.c, Src/gsm-1.0-pl10/tst/cod2txt.c,
+	  Src/gsm-1.0-pl10/tst/gsm2cod.c, Src/gsm-1.0-pl10/tst/lin2cod.c,
+	  Src/gsm-1.0-pl10/tst/lin2txt.c, Src/gsm-1.0-pl10/tst/run: Initial
+	  revision
+
+2004-01-06 01:16  kuba
+
+	* AUTHORS, COPYING, ChangeLog, HEADER, README, ftphone.sh, make.sh,
+	  makeclean.sh, remake.sh, CVSROOT/checkoutlist,
+	  CVSROOT/commitinfo, CVSROOT/config, CVSROOT/cvswrappers,
+	  CVSROOT/editinfo, CVSROOT/loginfo, CVSROOT/modules,
+	  CVSROOT/notify, CVSROOT/rcsinfo, CVSROOT/taginfo,
+	  CVSROOT/verifymsg, Src/Base.cxx, Src/Base.hxx, Src/Debug.hxx,
+	  Src/Doxyfile, Src/Interface.cxx, Src/Interface.hxx, Src/Main.cxx,
+	  Src/Makefile, Src/SysTools.cxx, Src/SysTools.hxx, Src/TODO,
+	  Src/defaults.h, Src/dsp.c, Src/dsp.h, Src/ftplib.c, Src/ftplib.h,
+	  Src/ftplib3.1.patch, Src/wave.c, Src/wave.h,
+	  Src/gsm-1.0-pl10/COPYRIGHT, Src/gsm-1.0-pl10/ChangeLog,
+	  Src/gsm-1.0-pl10/INSTALL, Src/gsm-1.0-pl10/MACHINES,
+	  Src/gsm-1.0-pl10/MANIFEST, Src/gsm-1.0-pl10/Makefile,
+	  Src/gsm-1.0-pl10/README, Src/gsm-1.0-pl10/add-test/add_test.c,
+	  Src/gsm-1.0-pl10/add-test/add_test.dta, Doc/devel-doc/foot.html,
+	  Doc/devel-doc/head.html, Doc/devel-doc/style.css,
+	  Doc/devel-doc/html/Base_8cxx-example.html,
+	  Doc/devel-doc/html/Base_8cxx.html,
+	  Doc/devel-doc/html/Base_8hxx-source.html,
+	  Doc/devel-doc/html/Base_8hxx.html,
+	  Doc/devel-doc/html/Debug_8hxx-source.html,
+	  Doc/devel-doc/html/Debug_8hxx.html,
+	  Doc/devel-doc/html/Interface_8cxx.html,
+	  Doc/devel-doc/html/Interface_8hxx-source.html,
+	  Doc/devel-doc/html/Interface_8hxx.html,
+	  Doc/devel-doc/html/Main_8cxx.html,
+	  Doc/devel-doc/html/SysTools_8cxx.html,
+	  Doc/devel-doc/html/SysTools_8hxx-source.html,
+	  Doc/devel-doc/html/SysTools_8hxx.html,
+	  Doc/devel-doc/html/add_8c.html,
+	  Doc/devel-doc/html/add__test_8c.html,
+	  Doc/devel-doc/html/annotated.html,
+	  Doc/devel-doc/html/bitter_8c.html,
+	  Doc/devel-doc/html/classTBase.html,
+	  Doc/devel-doc/html/classTInterface.html,
+	  Doc/devel-doc/html/cod2lin_8c.html,
+	  Doc/devel-doc/html/cod2txt_8c.html,
+	  Doc/devel-doc/html/code_8c.html,
+	  Doc/devel-doc/html/config_8h-source.html,
+	  Doc/devel-doc/html/config_8h.html,
+	  Doc/devel-doc/html/debug_8c.html,
+	  Doc/devel-doc/html/decode_8c.html,
+	  Doc/devel-doc/html/defaults_8h-source.html,
+	  Doc/devel-doc/html/defaults_8h.html,
+	  Doc/devel-doc/html/doxygen.css, Doc/devel-doc/html/doxygen.png,
+	  Doc/devel-doc/html/dsp_8c.html,
+	  Doc/devel-doc/html/dsp_8h-source.html,
+	  Doc/devel-doc/html/dsp_8h.html, Doc/devel-doc/html/examples.html,
+	  Doc/devel-doc/html/files.html, Doc/devel-doc/html/ftplib_8c.html,
+	  Doc/devel-doc/html/ftplib_8h-source.html,
+	  Doc/devel-doc/html/ftplib_8h.html,
+	  Doc/devel-doc/html/ftv2blank.png, Doc/devel-doc/html/ftv2doc.png,
+	  Doc/devel-doc/html/ftv2folderclosed.png,
+	  Doc/devel-doc/html/ftv2folderopen.png,
+	  Doc/devel-doc/html/ftv2lastnode.png,
+	  Doc/devel-doc/html/ftv2link.png,
+	  Doc/devel-doc/html/ftv2mlastnode.png,
+	  Doc/devel-doc/html/ftv2mnode.png,
+	  Doc/devel-doc/html/ftv2node.png,
+	  Doc/devel-doc/html/ftv2plastnode.png,
+	  Doc/devel-doc/html/ftv2pnode.png,
+	  Doc/devel-doc/html/ftv2vertline.png,
+	  Doc/devel-doc/html/functions.html,
+	  Doc/devel-doc/html/functions_func.html,
+	  Doc/devel-doc/html/functions_rela.html,
+	  Doc/devel-doc/html/functions_vars.html,
+	  Doc/devel-doc/html/globals.html,
+	  Doc/devel-doc/html/globals_defs.html,
+	  Doc/devel-doc/html/globals_func.html,
+	  Doc/devel-doc/html/globals_type.html,
+	  Doc/devel-doc/html/globals_vars.html,
+	  Doc/devel-doc/html/gsm2cod_8c.html,
+	  Doc/devel-doc/html/gsm_8h-source.html,
+	  Doc/devel-doc/html/gsm_8h.html,
+	  Doc/devel-doc/html/gsm__create_8c.html,
+	  Doc/devel-doc/html/gsm__decode_8c.html,
+	  Doc/devel-doc/html/gsm__destroy_8c.html,
+	  Doc/devel-doc/html/gsm__encode_8c.html,
+	  Doc/devel-doc/html/gsm__explode_8c.html,
+	  Doc/devel-doc/html/gsm__implode_8c.html,
+	  Doc/devel-doc/html/gsm__option_8c.html,
+	  Doc/devel-doc/html/gsm__print_8c.html,
+	  Doc/devel-doc/html/index.html,
+	  Doc/devel-doc/html/lin2cod_8c.html,
+	  Doc/devel-doc/html/lin2txt_8c.html,
+	  Doc/devel-doc/html/long__term_8c.html,
+	  Doc/devel-doc/html/lpc_8c.html, Doc/devel-doc/html/main.html,
+	  Doc/devel-doc/html/namespacemembers.html,
+	  Doc/devel-doc/html/namespacemembers_func.html,
+	  Doc/devel-doc/html/namespaces.html,
+	  Doc/devel-doc/html/namespacestd.html,
+	  Doc/devel-doc/html/namespacesys__tools.html,
+	  Doc/devel-doc/html/pages.html,
+	  Doc/devel-doc/html/preprocess_8c.html,
+	  Doc/devel-doc/html/private_8h-source.html,
+	  Doc/devel-doc/html/private_8h.html,
+	  Doc/devel-doc/html/proto_8h-source.html,
+	  Doc/devel-doc/html/proto_8h.html, Doc/devel-doc/html/rpe_8c.html,
+	  Doc/devel-doc/html/short__term_8c.html,
+	  Doc/devel-doc/html/structNetBuf.html,
+	  Doc/devel-doc/html/structfmtdesc.html,
+	  Doc/devel-doc/html/structgsm__state.html,
+	  Doc/devel-doc/html/structspex.html,
+	  Doc/devel-doc/html/structwavfile.html,
+	  Doc/devel-doc/html/style.css, Doc/devel-doc/html/sweet_8c.html,
+	  Doc/devel-doc/html/table_8c.html,
+	  Doc/devel-doc/html/taste_8c.html,
+	  Doc/devel-doc/html/taste_8h-source.html,
+	  Doc/devel-doc/html/taste_8h.html,
+	  Doc/devel-doc/html/toast_8c.html,
+	  Doc/devel-doc/html/toast_8h-source.html,
+	  Doc/devel-doc/html/toast_8h.html,
+	  Doc/devel-doc/html/toast__alaw_8c.html,
+	  Doc/devel-doc/html/toast__audio_8c.html,
+	  Doc/devel-doc/html/toast__lin_8c.html,
+	  Doc/devel-doc/html/toast__ulaw_8c.html,
+	  Doc/devel-doc/html/todo.html, Doc/devel-doc/html/tree.html,
+	  Doc/devel-doc/html/unproto_8h-source.html,
+	  Doc/devel-doc/html/unproto_8h.html,
+	  Doc/devel-doc/html/wave_8c.html,
+	  Doc/devel-doc/html/wave_8h-source.html,
+	  Doc/devel-doc/html/wave_8h.html, Src/gsm-1.0-pl10/inc/config.h,
+	  Src/gsm-1.0-pl10/inc/gsm.h, Src/gsm-1.0-pl10/inc/private.h,
+	  Src/gsm-1.0-pl10/inc/proto.h, Src/gsm-1.0-pl10/inc/toast.h,
+	  Src/gsm-1.0-pl10/inc/unproto.h, Src/gsm-1.0-pl10/man/bitter.1,
+	  Src/gsm-1.0-pl10/man/gsm.3, Src/gsm-1.0-pl10/man/gsm_explode.3,
+	  Src/gsm-1.0-pl10/man/gsm_option.3,
+	  Src/gsm-1.0-pl10/man/gsm_print.3, Src/gsm-1.0-pl10/man/toast.1,
+	  Src/gsm-1.0-pl10/src/add.c, Src/gsm-1.0-pl10/src/code.c,
+	  Src/gsm-1.0-pl10/src/debug.c, Src/gsm-1.0-pl10/src/decode.c,
+	  Src/gsm-1.0-pl10/src/gsm_create.c,
+	  Src/gsm-1.0-pl10/src/gsm_decode.c,
+	  Src/gsm-1.0-pl10/src/gsm_destroy.c,
+	  Src/gsm-1.0-pl10/src/gsm_encode.c,
+	  Src/gsm-1.0-pl10/src/gsm_explode.c,
+	  Src/gsm-1.0-pl10/src/gsm_implode.c,
+	  Src/gsm-1.0-pl10/src/gsm_option.c,
+	  Src/gsm-1.0-pl10/src/gsm_print.c,
+	  Src/gsm-1.0-pl10/src/long_term.c, Src/gsm-1.0-pl10/src/lpc.c,
+	  Src/gsm-1.0-pl10/src/preprocess.c, Src/gsm-1.0-pl10/src/rpe.c,
+	  Src/gsm-1.0-pl10/src/short_term.c, Src/gsm-1.0-pl10/src/table.c,
+	  Src/gsm-1.0-pl10/src/toast.c, Src/gsm-1.0-pl10/src/toast_alaw.c,
+	  Src/gsm-1.0-pl10/src/toast_audio.c,
+	  Src/gsm-1.0-pl10/src/toast_lin.c,
+	  Src/gsm-1.0-pl10/src/toast_ulaw.c, Src/gsm-1.0-pl10/tls/bitter.c,
+	  Src/gsm-1.0-pl10/tls/bitter.dta, Src/gsm-1.0-pl10/tls/ginger.c,
+	  Src/gsm-1.0-pl10/tls/sour.c, Src/gsm-1.0-pl10/tls/sour1.dta,
+	  Src/gsm-1.0-pl10/tls/sour2.dta, Src/gsm-1.0-pl10/tls/sweet.c,
+	  Src/gsm-1.0-pl10/tls/taste.c, Src/gsm-1.0-pl10/tls/taste.h,
+	  Src/gsm-1.0-pl10/tst/cod2lin.c, Src/gsm-1.0-pl10/tst/cod2txt.c,
+	  Src/gsm-1.0-pl10/tst/gsm2cod.c, Src/gsm-1.0-pl10/tst/lin2cod.c,
+	  Src/gsm-1.0-pl10/tst/lin2txt.c, Src/gsm-1.0-pl10/tst/run: after
+	  chengeing CVS GUI
+
+2004-01-05 01:52  kuba
+
+	* Src/: dsp.c, SysTools.hxx: no message
+
+2004-01-05 01:52  kuba
+
+	* Src/Base.cxx: Stereo testing
+
+2004-01-05 01:31  kuba
+
+	* Src/defaults.h: add STEREO and MONO macros
+
+2004-01-05 01:08  kuba
+
+	* Src/defaults.h: correct macros ?
+
+2004-01-05 01:07  kuba
+
+	* Src/SysTools.cxx: correct parameters ?
+
+2004-01-05 01:06  kuba
+
+	* Src/Debug.hxx: [no log message]
+
+2004-01-03 00:18  kuba
+
+	* Src/Base.cxx: *found no CVS/Template file*
+
+2004-01-03 00:15  kuba
+
+	* ChangeLog, README: no message
+
+2003-12-30 20:13  kuba
+
+	* Src/Base.cxx: [no log message]
+
+2003-12-30 19:44  kuba
+
+	* Src/Base.cxx: some changes for ftp connections
+
+2003-12-26 02:31  kuba
+
+	* Src/Base.cxx: [no log message]
+
+2003-12-26 02:26  kuba
+
+	* Src/Base.cxx:
+	  change time period between getting files ; Now is 2 seconds
+
+2003-12-26 02:09  kuba
+
+	* Src/SysTools.hxx: corrects for differs versions gcc
+
+2003-12-26 02:06  kuba
+
+	* Src/SysTools.cxx: some corrects for other platforms
+
+2003-12-26 00:21  kuba
+
+	* Src/: Base.cxx, Base.hxx, Interface.cxx, Interface.hxx, Main.cxx,
+	  Makefile:
+	  little changes to stable version
+
+2003-12-14 02:49  kuba
+
+	* Src/TODO: new devel doc.
+
+2003-12-14 02:39  kuba
+
+	* Doc/devel-doc/foot.html, Doc/devel-doc/head.html,
+	  Doc/devel-doc/style.css, Src/Base.cxx, Src/Base.hxx,
+	  Src/Debug.hxx, Src/Doxyfile, Src/Interface.cxx,
+	  Src/Interface.hxx, Src/Main.cxx, Src/Makefile, Src/SysTools.cxx,
+	  Src/SysTools.hxx, Src/ftplib.c, Src/ftplib3.1.patch:
+	  new interface
+
+2003-12-14 02:37  kuba
+
+	* Doc/foot.html, Doc/head.html, Doc/style.css,
+	  Src/ftplib-3.1-linux.patch:
+	  doc-devel
+
+2003-12-13 02:32  kuba
+
+	* Src/: Base.cxx, Base.hxx, Interface.cxx, Interface.hxx:
+	  semi stable
+
+2003-12-10 00:25  kuba
+
+	* Src/ftplib-3.1-linux.patch:
+	  my new patch for ftplib-3.1
+
+2003-12-10 00:25  kuba
+
+	* Src/: Base.cxx, Base.hxx, ftplib.c, ftplib.h:
+	  0.1r01
+
+2003-12-05 00:37  kuba
+
+	* ftphone.sh, Src/Base.cxx, Src/Interface.cxx, Src/Interface.hxx,
+	  Src/Makefile:
+	  0.1
+
+2003-12-04 02:50  kuba
+
+	* HEADER, ftphone.sh, Src/Base.cxx, Src/Base.hxx, Src/Debug.hxx,
+	  Src/Makefile, Src/defaults.h:
+	  0.1
+
+2003-11-24 02:36  kuba
+
+	* HEADER, ftphone.sh, Src/Base.cxx, Src/Base.hxx, Src/Doxyfile,
+	  Src/Interface.cxx, Src/Interface.hxx, Src/ftplib.c: [no log
+	  message]
+
+2003-11-18 01:04  kuba
+
+	* Doc/foot.html, Doc/head.html, Doc/style.css, Src/Base.cxx,
+	  Src/Base.hxx, Src/Interface.cxx, Src/Interface.hxx, Src/Makefile,
+	  Src/TODO, Src/Doxyfile: [no log message]
+
+2003-11-16 03:52  kuba
+
+	* HEADER, Src/Base.cxx, Src/Base.hxx, Src/Interface.cxx,
+	  Src/Interface.hxx, Src/Main.cxx, Src/Makefile: Class TInterface
+	  gsm-1.0
+
+2003-11-12 01:25  kuba
+
+	* AUTHORS, Src/Base.cxx, Src/Base.hxx, Src/TODO, Src/ftplib.h: [no
+	  log message]
+
+2003-11-11 18:24  kuba
+
+	* Src/: Base.cxx, Base.hxx, Makefile, ftplib.h: New ftplib
+
+2003-11-11 16:57  kuba
+
+	* make.sh, makeclean.sh, remake.sh, Src/Base.cxx, Src/Base.hxx,
+	  Src/Interface.cxx, Src/Interface.hxx, Src/Makefile, Src/ftplib.c,
+	  Src/ftplib.h, Src/wave.c: New ftplib
+
+2003-11-11 04:32  kuba
+
+	* Src/: Base.cxx, Base.hxx, wave.c, wave.h: [no log message]
+
+2003-11-11 03:18  kuba
+
+	* Src/: Base.cxx, Base.hxx, Makefile: [no log message]
+
+2003-11-11 03:17  kuba
+
+	* Src/: defaults.h, dsp.c, dsp.h, wave.c, wave.h: Files from
+	  gsm-tools
+
+2003-11-10 14:57  kuba
+
+	* Src/Base.cxx, Src/Base.hxx, Src/Makefile, Src/TODO, TODO: [no log
+	  message]
+
+2003-11-10 14:10  kuba
+
+	* Src/: Base.cxx, Base.hxx, Main.cxx: [no log message]
+
+2003-11-10 13:44  kuba
+
+	* AUTHORS, COPYING, ChangeLog, README, TODO, Src/Makefile: [no log
+	  message]
+
+2003-11-10 13:21  kuba
+
+	* CVSROOT/: checkoutlist, commitinfo, config, cvswrappers,
+	  editinfo, loginfo, modules, notify, rcsinfo, taginfo, verifymsg:
+	  initial checkin
+

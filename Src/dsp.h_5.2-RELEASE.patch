@@ -1,0 +1,11 @@
+--- dsp.h.old	2004-02-10 00:50:46.000000000 +0100
++++ dsp.h	2004-02-10 00:51:04.000000000 +0100
+@@ -12,7 +12,7 @@
+ #include <sys/ipc.h>
+ #include <sys/ioctl.h>
+ #include <assert.h>
+-#include <linux/soundcard.h>
++#include <sys/soundcard.h>
+ 
+ #define DSPDEV "/dev/dsp"
+ #define MIXDEV "/dev/mixer"

@@ -1,0 +1,185 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-2">
+<title>FTPhone - user documentation</title>
+
+<style type="text/css">
+body {
+color: rgb(0, 0, 0);
+background-color: rgb(255, 255, 255);
+font-family: verdana, helvetica, tahoma, arial, sans-serif;
+font-size: 12px;
+}
+
+a:link, a:visited {
+font-size : 10px;
+text-decoration:none; 
+font-weight: bold; 
+color: rgb(255, 255, 255)
+}
+
+a:hover, a.non_tab:hover {color: #330066; text-decoration: none; font-weight: bold;}
+a.mail{color: #CC99FF; font-size : 10px;}  
+a.non_tab{color: rgb(155, 155, 155); }
+
+div {
+border: rgb(51, 102, 153) 1px dashed;
+padding: 10px;
+background: rgb(246, 246, 246);
+}			
+</style>
+
+</head>
+
+<body>
+<center>
+<h1>FTPhone</h1> version 0.1
+
+<br><br>
+
+<table cellpadding="2" cellspacing="2" border="1" align="right"
+  style="width: 96%; background-color: #6699cc;  text-align: center;">
+  <tbody>
+  <tr>
+    <td style="vertical-align: top;"
+      onmouseover="bgColor='#93BEE9'"
+      onclick="window.location='main.html#about'"
+      onmouseout="bgColor='#6699cc'">
+      <a href="main.html#about">ABOUT FTPhone</a><br>
+    </td>
+    <td style="vertical-align: top;"
+      onmouseover="bgColor='#93BEE9'"
+      onclick="window.location='main.html#compile'"
+      onmouseout="bgColor='#6699CC'">
+      <a href="main.html#compile">COMPILING AND RUNNING</a><br>
+    </td>
+    <td style="vertical-align: top;"
+      onmouseover="bgColor='#93BEE9'"
+      onclick="window.location='main.html#hotkeys'"
+      onmouseout="bgColor='#6699CC'">
+      <a href="main.html#hotkeys">HOTKEYS</a><br>
+    </td>
+    <td style="vertical-align: top;"
+      onmouseover="bgColor='#93BEE9'"
+      onclick="window.location='main.html#download'"
+      onmouseout="bgColor='#6699CC'">
+      <a href="main.html#download">DOWNLOAD</a><br>
+    </td>
+  </tr>
+  </tbody>
+</table>
+</center>
+
+<br><br><br><br>
+
+<a name="about"></a>
+<span style="font-weight: bold;">ABOUT<br></span>
+<div style="margin-left: 40px;"> FTPhone is a simple console application
+which try to emulate phone talk. If YOU have access to ftp server and
+read/write permission for any remote directory on this server, and this
+same abilities has your friend then you can try to talk using
+this program.
+</div>
+<br>
+
+<a name="compile"></a>
+<span style="font-weight: bold;">COMPILING AND RUNNING<br></span>
+<div style="margin-left: 40px;"> You ask me how to compile and run this
+program ? Hmm, it's very simple. First thing, which You have to do
+after decompressing tar ball package (<code>tar zxvf FTPhone.tar.gz</code>)
+run a script make.sh
+<pre><i> ./make.sh </i></pre>
+After successful compiling You should be able notice executive file <b>
+a.out </b>, but do not run it if you are not sure which parameters You
+compiled the program. Default some sources are compiling with defined
+DO_DEBUG macro. Safety You should run program using script ftphone.sh,
+which can generate log files in directory ./Log
+<pre><i> sh ftphone.sh </i><br></pre>
+I suppose, that You do not know correct executive options. So i suppose that
+first time run it with --help option.
+<pre><i> sh ftphone.sh --help </i><br></pre>
+<pre><i> sh ftphone.sh [-m my user name] [-f friend user name] [-s ftp server address] [-d remote dir]</i></pre>
+
+<p>
+<pre> <strong>default values:</strong>
+  my user name on ftp server: kuba
+  friend user name on ftp server: john
+  ftp server address: ftp.server.net
+  remote dir: /tmp/</pre>
+<i> eg.: sh ftphone.sh -m kuba -f john -s ftp.server.net -d /tmp/ </i>
+</div>
+<br>
+
+<p>
+Afterwards, you login on ftp server and if everything will be OK
+you'll see console interface in ncurses.
+<br>
+<br>
+<center>
+<img border="0" src="login.png" alt="Login Screen">
+</center>
+<br>
+<br>
+<center>
+<img border="0" src="screenshot1.png" alt="Start Screen">
+</center>
+<br>
+<br>
+<a name="hotkeys"></a>
+<span style="font-weight: bold;">HOTKEYS<br></span>
+
+<div style="margin-left: 40px;">
+<p>We have got only 3 hotkeys !
+
+<ul>
+  <li> <b>R</b>: we press 'R' or 'r' when we want to
+  <i>start record</i> yourself (program create gsm file) <br>
+  <br>
+  <img border="0" src="screenshot2.png" alt="Recording Screen">
+  <br> <br>
+  <img border="0" src="screenshot3.png" alt="Playing Screen">
+  </li>
+  
+  <li> <b>S</b>: we press 'S' or 's' when we want to
+  <i>stop  recording</i> (program sending before created gsm file)
+  </li>
+
+  <li> <b>Q</b>: we press 'Q' or 'q' when we want to <i>quit</i> (logout and clearing temporary files)</li>
+</ul>
+</div>
+<br><br>
+
+<a name="download"></a>
+<span style="font-weight: bold;">DOWNLOAD<br></span>
+<div style="margin-left: 40px;">
+All sources of <code>FTPhone project</code> You can download in one tar ball package from following
+sites:
+<ul>
+  <li>
+  <a name="url1" class="non_tab" href="">
+  h t t p : / / d i s c h a o s . c o m / ~ k u b a / F T P h o n e / d o w n l o a d / F T P h o n e . t a r . g z
+  </a>
+
+  <li>
+  <a name="url2" class="non_tab" href="">
+  h t t p : / / a l a n . u m c s . l u b l i n . p l / ~ k u b a
+  / s o u r c e s / F T P h o n e . t a r . g z
+  </a>      
+</ul>
+<br>
+or <b>CVS</b> snapshot from repository (generally more up to date):
+<pre>
+cvs -d:pserver:anonymous@cvs.sourceforge.net:/cvsroot/FTPhone login
+ 
+cvs -z3 -d:pserver:anonymous@cvs.sourceforge.net:/cvsroot/FTPhone co modulename
+</pre>
+<h5><a name="cvs_info" class="non_tab" href="">here is how to get files from CVS</a></h5>
+</div>
+<br><br>
+<hr style="width: 100%; height: 2px;"><br>
+<p> 
+<!-- hhmts start --> Last modified: Mon Feb  9 00:25:21 CET 2004 <!-- hhmts end -->
+<hr style="width: 100%; height: 2px;">
+</body>
+</html>
