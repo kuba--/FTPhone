@@ -1,3 +1,4 @@
+<pre>
 OOOOOOO 	OOOOOO  	OOOOOO  	OOO     	        	        	        	
  OO   O 	O OO O  	 OO  OO 	 OO     	        	        	        	
  OO O   	  OO    	 OO  OO 	 OO OO  	 OOOO   	OOOOO   	 OOOO   	
@@ -5,7 +6,7 @@ OOOOOOO 	OOOOOO  	OOOOOO  	OOO
  OO O   	  OO    	 OO     	 OO  OO 	OO  OO  	OO  OO  	OOOOOO  	
  OO     	  OO    	 OO     	 OO  OO 	OO  OO  	OO  OO  	OO      	
 OOOO    	 OOOO   	OOOO    	OOO  OO 	 OOOO   	OO  OO  	 OOOO   	ver. 0.1
-
+</pre>
 by Kuba Podgorski 
 
 FTPhone - It's simple console application. It tries to emulate walky-talky. 
