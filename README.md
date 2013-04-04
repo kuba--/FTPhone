@@ -8,10 +8,6 @@ OOOO    	 OOOO   	OOOO    	OOO  OO 	 OOOO   	OO  OO  	 OOOO   	ver. 0.1
 
 by Kuba Podgorski 
 
-
-
-Hello, this is read me file for project FTPhone ver. 0.1
-
 FTPhone - It's simple console application. It tries to emulate walky-talky. 
 If you have an access to ftp server and read/write permission for 
 any remote directory on this server, and this same permission har your friend,
