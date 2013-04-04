@@ -7,7 +7,6 @@ OOOOOOO 	OOOOOO  	OOOOOO  	OOO
  OO     	  OO    	 OO     	 OO  OO 	OO  OO  	OO  OO  	OO      	
 OOOO    	 OOOO   	OOOO    	OOO  OO 	 OOOO   	OO  OO  	 OOOO   	ver. 0.1
 </pre>
-by Kuba Podgorski 
 
 FTPhone - It's simple console application. It tries to emulate walky-talky. 
 If you have an access to ftp server and read/write permission for 
